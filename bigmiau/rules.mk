@@ -1,0 +1,5 @@
+TRI_LAYER_ENABLE = yes
+
+# Enable RGB Matrix
+RGB_MATRIX_ENABLE = yes
+RGB_MATRIX_DRIVER = ws2812

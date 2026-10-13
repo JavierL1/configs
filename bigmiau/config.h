@@ -1,0 +1,16 @@
+// Copyright 2024 Santosh Kumar (@santosh)
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+#pragma once
+
+#define TRI_LAYER_LOWER_LAYER 2
+#define TRI_LAYER_UPPER_LAYER 3
+#define TRI_LAYER_ADJUST_LAYER 4
+
+// RGB Matrix settings
+#define RGB_DI_PIN B2
+#define DRIVER_LED_TOTAL 72
+#define RGB_MATRIX_LED_COUNT 72
+#define RGB_MATRIX_KEYPRESSES
+#define ENABLE_RGB_MATRIX_RAINBOW_MOVING_CHEVRON
+#define RGB_MATRIX_STARTUP_MODE RGB_MATRIX_RAINBOW_MOVING_CHEVRON
