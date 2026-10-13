@@ -50,11 +50,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                       KC_TRNS, KC_TRNS,    KC_TRNS,    KC_TRNS,       KC_TRNS,     KC_TRNS, MO(_ADJUST),  KC_TRNS,    KC_TRNS, KC_TRNS
     ),
     [_RAISE] = LAYOUT(
-        KC_ESC, KC_TRNS,       KC_TRNS, KC_TRNS,       KC_TRNS,       KC_TRNS,                            KC_CALC, KC_PSLS, KC_PAST, KC_PMNS, KC_NO,   KC_BSPC,
-        KC_PGUP, LCTL(KC_LEFT), KC_UP,   LCTL(KC_RGHT), LCTL(KC_BSPC), KC_BSPC,                            KC_7,    KC_8,    KC_9,    KC_PPLS, KC_PERC, KC_BSPC,
-                      KC_PGDN, KC_LEFT,       KC_DOWN, KC_RGHT,       KC_DEL,        KC_BSPC,                            KC_4,    KC_5,    KC_6,    KC_PCMM, KC_MPRV, KC_MNXT,
-                      KC_TRNS, KC_HOME,       KC_NO,   KC_END,        KC_NO,        KC_NO,       KC_TRNS,      KC_TRNS, KC_1,    KC_2,    KC_3,    KC_PEQL, KC_VOLD, KC_VOLU,
-                      KC_TRNS, KC_TRNS,       KC_TRNS,       MO(_ADJUST), KC_TRNS,      KC_TRNS, KC_TRNS,   KC_0,    KC_PDOT, KC_PSCR
+        KC_ESC, KC_TRNS,       KC_TRNS, KC_TRNS,       KC_TRNS,       KC_TRNS,                            KC_CALC, KC_PSLS, KC_PAST, KC_PMNS, KC_NUM,   KC_BSPC,
+        KC_PGUP, LCTL(KC_LEFT), KC_UP,   LCTL(KC_RGHT), LCTL(KC_BSPC), KC_BSPC,                            KC_P7,    KC_P8,    KC_P9,    KC_PPLS, KC_PERC, KC_BSPC,
+                      KC_PGDN, KC_LEFT,       KC_DOWN, KC_RGHT,       KC_DEL,        KC_BSPC,                            KC_P4,    KC_P5,    KC_P6,    KC_PCMM, KC_MPRV, KC_MNXT,
+                      KC_TRNS, KC_HOME,       KC_NO,   KC_END,        KC_NO,        KC_NO,       KC_TRNS,      KC_TRNS, KC_P1,    KC_P2,    KC_P3,    KC_PEQL, KC_VOLD, KC_VOLU,
+                      KC_TRNS, KC_TRNS,       KC_TRNS,       MO(_ADJUST), KC_TRNS,      KC_TRNS, KC_TRNS,   KC_P0,    KC_PDOT, KC_PSCR
     ),
     /* ADJUST
      * ,-----------------------------------------.                    ,-----------------------------------------.
